@@ -1,6 +1,7 @@
 export work_station='WSOGL-1'
 export env_project_names=$(cat <<EOF
--- 'THESE', -- comment 
+-- COMMENTED_OUT proj,
+'THESE', -- comment 
 'are', --another comment
 'SUMMIT', --third comment
 'projectS' --fourth comment
