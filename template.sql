@@ -11,5 +11,5 @@ DECLARE
   P_COB_DATE  VARCHAR2(200)
 BEGIN
     P_COB_DATE := '${p_cob_date}'
-    raise notice 'Date Inputted by Veerraju is : %', P_COB_DATE;
+    -- raise notice 'Date Inputted by Veerraju is : %', P_COB_DATE;
 END
