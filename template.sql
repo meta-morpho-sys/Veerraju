@@ -8,8 +8,7 @@ AND schedule IN
 );
 
 DECLARE
-  P_COB_DATE  VARCHAR2(200);
--- BEGIN
-    P_COB_DATE := '${p_cob_date}';
+    P_COB_DATE  VARCHAR2(200) := '${p_cob_date}';
+BEGIN
     raise notice 'Date Inputted by Veerraju is : %', P_COB_DATE;
--- END
+END
