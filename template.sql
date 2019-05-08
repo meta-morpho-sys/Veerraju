@@ -7,5 +7,7 @@ AND schedule IN
 (${env_project_names}
 );
 
+DO $$
 DECLARE
     P_COB_DATE  VARCHAR(200) := '${p_cob_date}';
+END $$;
