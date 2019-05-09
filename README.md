@@ -1,11 +1,12 @@
 This test project runs with PostgreSQL. You need to have is installed on your machine.
 
-1. Once you install PostgreSQL and create your user and database 
-    For simplicity (I named db = pre_jenkins_test and user = dumbo ;-) )
-    
-    If you want to use your own names make sure you change them in run.sh, line 18
+1. Install PostgreSQL and create your user and database.
 
-2. Create Table
+    For simplicity, I named db = pre_jenkins_test and user = dumbo.
+    
+    If you want to use your own names make sure you change them in run.sh, line 18.
+
+2. Create the initial table. Run in CL:
     `psql pre_jenkins_test -U dumbo -f set_up_table.sql`
 
 3. Configure your Jenkins with a Multi-configuration project.
