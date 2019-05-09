@@ -1,5 +1,6 @@
 
-![Automating IWS schedules Diagram](https://github.com/meta-morpho-sys/Veerraju/blob/master/images/IWS overview diagram.png)
+#### Automating IWS schedules
+![Automating IWS schedules Diagram](https://github.com/meta-morpho-sys/Veerraju/blob/master/images/IWS_overview_diagram.png)
 
 
 This test project runs with PostgreSQL. You need to have is installed on your machine.
