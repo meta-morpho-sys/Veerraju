@@ -1,3 +1,6 @@
 result.sql
 output.log
 generated.sql
+*.drawio
+.DS_Store
+

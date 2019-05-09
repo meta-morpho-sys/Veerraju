@@ -1,4 +1,10 @@
+
+![Automating IWS schedules Diagram](https://github.com/meta-morpho-sys/Veerraju/blob/master/images/IWS overview diagram.png)
+
+
 This test project runs with PostgreSQL. You need to have is installed on your machine.
+You can follow this [cool tutorial.](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
+)
 
 For simplicity, I named db = pre_jenkins_test and user = dumbo.
     
