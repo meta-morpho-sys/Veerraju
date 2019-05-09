@@ -1,4 +1,4 @@
--- UPDATE ctl_batch_schedules SET disabled = 'Y';
+UPDATE ctl_batch_schedules SET disabled = 'Y';
 
 UPDATE ctl_batch_schedules
 SET disabled = 'N'
@@ -10,4 +10,6 @@ AND schedule IN
 DO $$
 DECLARE
     P_COB_DATE  VARCHAR(200) := '${p_cob_date}';
+BEGIN
+    DO_SOMETHING(P_COB_DATE);
 END $$;
